@@ -8,7 +8,8 @@
     "k64f",
     "ksdk",
     "frdm",
-    "freescale"
+    "freescale",
+    "mbed-official"
   ],
   "author": "martin.kojtal@arm.com",
   "repository": {

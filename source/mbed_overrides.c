@@ -16,7 +16,7 @@
 #include "gpio_api.h"
 
 #define CRC16
-#include "crc.h"
+#include "mbed-hal-k64f/crc.h"
 
 // called before main - implement here if board needs it ortherwise, let
 //  the application override this if necessary

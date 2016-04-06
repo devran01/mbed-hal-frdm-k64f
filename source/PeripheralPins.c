@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 #include "PeripheralPins.h"
 
 /************RTC***************/
@@ -88,7 +88,7 @@ const PinMap PinMap_UART_TX[] = {
     {PTE24, UART_4, 3},
     {PTE4 , UART_3, 3},
     {PTE0,  UART_1, 3},
-	{PTE2,  UART_1, 3},
+    {PTE2,  UART_1, 3},
     {NC  ,  NC    , 0}
 };
 
@@ -104,7 +104,7 @@ const PinMap PinMap_UART_RX[] = {
     {PTC14, UART_4, 3},
     {PTD2 , UART_2, 3},
     {PTC6 , UART_0, 3},
-	{PTE3,  UART_1, 3},
+    {PTE3,  UART_1, 3},
     {NC  ,  NC    , 0}
 };
 
@@ -171,12 +171,12 @@ const PinMap PinMap_PWM[] = {
     {PTA11, PWM_18, 3},
     {PTA12, PWM_9 , 3},
     {PTA13, PWM_10, 3},
-    
+
     {PTB0 , PWM_9 , 3},
     {PTB1 , PWM_10, 3},
     {PTB18, PWM_17, 3},
     {PTB19, PWM_18, 3},
-    
+
     {PTC1 , PWM_1 , 4},
     {PTC2 , PWM_2 , 4},
     {PTC3 , PWM_3 , 4},
@@ -186,7 +186,7 @@ const PinMap PinMap_PWM[] = {
     {PTC9 , PWM_30, 3},
     {PTC10, PWM_31, 3},
     {PTC11, PWM_32, 3},
-    
+
     {PTD0 , PWM_25, 4},
     {PTD1 , PWM_26, 4},
     {PTD2 , PWM_27, 4},
@@ -199,6 +199,6 @@ const PinMap PinMap_PWM[] = {
     
     {PTE5 , PWM_25, 6},
     {PTE6 , PWM_26, 6},
-        
+
     {NC   , NC    , 0}
 };
